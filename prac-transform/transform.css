@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+span {
+    color: blueviolet;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child {
+    background-color: red;
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.child1:hover {
+    transform: rotate(20deg);
+    transition: .3s;
+}
+
+.child2:hover {
+    transform: rotate(100deg);
+    transition: .3s;
+}
+
+.child3:hover {
+    transform: rotate(120deg);
+    transition: .3s;
+}
+
+.small1:hover {
+    transform: scale(1.5);
+    transition: .3s;
+}
+
+.small2:hover {
+    transform: scalex(.5);
+    transition: .3s;
+}
+
+.small3:hover {
+    transform: scaley(.5);
+    transition: .3s;
+}
+
+.small4:hover {
+    transform: scale(1.5, .5);
+    transition: .3s;
+}
+
+.small5:hover {
+    transform: scaleZ(5);
+    transition: .3s;
+}
+
+.lost:hover {
+    transform: translate(30px);
+    transition: .3s;
+}
+
+.lost1:hover {
+    transform: translate(-30px);
+    transition: .3s;
+}
+
+.lost2:hover {
+    transform: translatey(30px);
+    transition: .3s;
+}
+
+.lost3:hover {
+    transform: translatey(-30px);
+    transition: .3s;
+}
+
+.lol:hover {
+    transform: skew(30deg);
+    transition: .3s;
+}
+
+.lol1:hover {
+    transform: skewy(30deg);
+    transition: .3s;
+}
